@@ -287,3 +287,186 @@ for i in range(1, n+1):
             dp[i][w] = dp[i-1][w]
 
 print("Maximum profit:", dp[n][W])
+
+
+OUTPUTS 
+Linear Search
+
+Input:
+Enter number of elements: 5
+Enter elements: 10 20 30 40 50
+Enter element to search: 30
+
+Output:
+Element found at index: 2
+
+
+---
+
+✅ 2. Binary Search
+
+Input:
+Enter number of elements: 5
+Enter sorted elements: 10 20 30 40 50
+Enter element to search: 40
+
+Output:
+Element found at index: 3
+
+
+---
+
+✅ 3. Tower of Hanoi
+
+Input:
+Enter number of disks: 3
+
+Output:
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+
+
+---
+
+✅ 4. Selection Sort
+
+Input:
+Enter number of elements: 5
+Enter elements: 5 2 4 1 3
+
+Output:
+Sorted array: [1, 2, 3, 4, 5]
+
+
+---
+
+✅ 5. Quick Sort
+
+Input:
+Enter number of elements: 5
+Enter elements: 9 3 7 1 5
+
+Output:
+Sorted array: [1, 3, 5, 7, 9]
+
+
+---
+
+✅ 6. Merge Sort
+
+Input:
+Enter number of elements: 5
+Enter elements: 8 4 2 6 1
+
+Output:
+Sorted array: [1, 2, 4, 6, 8]
+
+
+---
+
+✅ 7. Prim’s Algorithm
+
+Input:
+Enter number of vertices: 3
+Enter adjacency matrix:
+0 2 3
+2 0 1
+3 1 0
+
+Output:
+Edges in MST:
+0 - 1 = 2
+1 - 2 = 1
+Total cost: 3
+
+
+---
+
+✅ 8. Floyd Warshall
+
+Input:
+Enter number of vertices: 3
+Enter adjacency matrix:
+0 5 0
+5 0 2
+0 2 0
+
+Output:
+Shortest path matrix:
+[0, 5, 7]
+[5, 0, 2]
+[7, 2, 0]
+
+
+---
+
+✅ 9. Tree Traversals
+
+Input:
+(No input)
+
+Output:
+Preorder:
+1 2 3
+
+Inorder:
+2 1 3
+
+Postorder:
+2 3 1
+
+
+---
+
+✅ 10. Graph Coloring
+
+Input:
+Enter number of vertices: 3
+0 1 1
+1 0 1
+1 1 0
+Enter number of colors: 3
+
+Output:
+Color assignment: [1, 2, 3]
+
+
+---
+
+✅ 11. Job Sequencing
+
+Input:
+Enter number of jobs: 4
+Enter job_id deadline profit:
+J1 2 100
+J2 1 50
+J3 2 10
+J4 1 20
+
+Output:
+Job sequence: [-1, 'J2', 'J1']
+Total profit: 150
+
+
+---
+
+✅ 12. 0/1 Knapsack
+
+Input:
+Enter number of items: 3
+Enter values: 60 100 120
+Enter weights: 10 20 30
+Enter capacity: 50
+
+Output:
+Maximum profit: 220
+
+
+
+
+
